@@ -23,9 +23,9 @@ window.DURDUC_CONFIG = {
     whatsapp: "34643266256",
     whatsappMensaje: "Hola Jeniffer, he visto la web de DURDUC y me gustaría hablar sobre un proyecto.",
     // Enlace completo a tu perfil. Ejemplo: "https://www.instagram.com/durduc"
-    instagram: "",
+    instagram: "https://www.instagram.com/dl.jeniffer",
     // Nombre de usuario que se muestra junto al icono. Ejemplo: "@durduc"
-    instagramUsuario: ""
+    instagramUsuario: "@dl.jeniffer"
   },
 
   formulario: {
