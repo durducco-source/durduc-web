@@ -69,42 +69,6 @@ window.DURDUC_DATA = {
       resumen: "Web corporativa para una empresa de limpieza profesional de Lloret de Mar, orientada a hoteles, empresas y grandes espacios.",
       descripcion: "El reto era presentar a Selvimar como una empresa especializada en negocios y establecimientos, no como una limpieza doméstica. Reorientamos todo el contenido hacia sus servicios profesionales y elevamos la imagen con fotografía luminosa y de estilo premium.",
       trabajo: ["Diseño y desarrollo de la web", "Reposicionamiento del mensaje hacia empresas", "Textos y estructura SEO por servicio", "Formulario de presupuesto y contacto por WhatsApp", "Selección de fotografía de estilo premium"]
-    },
-    {
-      id: "aura-flowers",
-      nombre: "Aura Flowers",
-      sector: "Joyería botánica artesanal",
-      categorias: ["web"],
-      imagen: "assets/img/proyectos/aura-flowers-web-full.jpg",
-      imagenMovil: "assets/img/proyectos/aura-flowers-web-movil.jpg",
-      enlace: "https://durducco-source.github.io/aura-flowers-web/",
-      resumen: "Web para una marca de joyas hechas a mano con flores naturales encapsuladas en resina.",
-      descripcion: "Una web delicada y femenina que pone las piezas y el proceso artesanal en el centro, con una estética que acompaña la naturaleza del producto.",
-      trabajo: ["Diseño y desarrollo de la web", "Presentación de la colección y del proceso", "Sección de piezas a medida", "Diseño adaptado a móvil"]
-    },
-    {
-      id: "brunch-jolie",
-      nombre: "Brunch Jolie",
-      sector: "Cafetería y brunch",
-      categorias: ["web"],
-      imagen: "assets/img/proyectos/brunch-jolie-full.jpg",
-      imagenMovil: "assets/img/proyectos/brunch-jolie-movil.jpg",
-      enlace: "https://durducco-source.github.io/brunch-jolie/",
-      resumen: "Web para un local de desayunos y brunch con carta, galería y reservas.",
-      descripcion: "Una web cálida y apetecible que muestra la carta y los platos más característicos del local, con acceso rápido a la carta, a cómo llegar y a la reserva de mesa.",
-      trabajo: ["Diseño y desarrollo de la web", "Carta y platos destacados", "Galería y ubicación", "Botón de reserva"]
-    },
-    {
-      id: "la-parrilla",
-      nombre: "La Parrilla Lloret",
-      sector: "Restaurante",
-      categorias: ["web"],
-      imagen: "assets/img/proyectos/la-parrilla-lloret-full.jpg",
-      imagenMovil: "assets/img/proyectos/la-parrilla-lloret-movil.jpg",
-      enlace: "https://durducco-source.github.io/la-parrilla-lloret/",
-      resumen: "Web para un restaurante de paellas y brasas en Lloret de Mar.",
-      descripcion: "Una web con carácter, centrada en la cocina a la brasa y las paellas del restaurante, con la carta, las celebraciones y las reservas siempre a mano.",
-      trabajo: ["Diseño y desarrollo de la web", "Carta y especialidades", "Sección de celebraciones", "Llamadas a la acción para reservar"]
     }
   ]
 };

@@ -16,7 +16,12 @@ window.DURDUC_CONFIG = {
 
   contacto: {
     // Email público de contacto. Ejemplo: "hola@durduc.com"
-    email: "",
+    email: "durduc.co@gmail.com",
+    // Teléfono tal y como se muestra en la web
+    telefono: "+34 643 26 62 56",
+    // WhatsApp: número internacional sin "+" ni espacios (vacío = se oculta)
+    whatsapp: "34643266256",
+    whatsappMensaje: "Hola Jeniffer, he visto la web de DURDUC y me gustaría hablar sobre un proyecto.",
     // Enlace completo a tu perfil. Ejemplo: "https://www.instagram.com/durduc"
     instagram: "",
     // Nombre de usuario que se muestra junto al icono. Ejemplo: "@durduc"

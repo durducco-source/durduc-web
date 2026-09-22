@@ -7,7 +7,7 @@
 <meta name="description" content="DURDUC es una marca de marketing digital creada por Jeniffer: diseño y creación de páginas web, landing pages, branding, estrategia de marketing y presencia digital para negocios y profesionales.">
 <meta name="robots" content="index,follow">
 <meta name="author" content="Jeniffer · DURDUC">
-<meta name="theme-color" content="#f4efe7">
+<meta name="theme-color" content="#0a0a0b">
 <link rel="canonical" href="https://durducco-source.github.io/durduc-web/">
 <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
 <meta property="og:type" content="website">
@@ -22,7 +22,7 @@
 <meta name="google-site-verification" content="TU_CODIGO"> -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css">
 <link rel="preload" as="image" href="assets/img/jeniffer.jpg">
 <script>document.documentElement.className = 'js';</script>
@@ -103,7 +103,7 @@
         </div>
       </div>
       <ul class="stats reveal" aria-label="Durduc en cifras">
-        <li><b data-count="projects">0</b><span>proyectos web creados</span></li>
+        <li><b data-count="projects">0</b><span data-plural="proyecto web creado|proyectos web creados">proyectos web creados</span></li>
         <li><b data-count="services">0</b><span>servicios para tu negocio</span></li>
         <li><b data-count-to="6">0</b><span>fases en cada proyecto</span></li>
       </ul>
@@ -218,6 +218,8 @@
         <p class="lead">Cuéntame qué tienes en mente y te responderé personalmente para ver cómo puedo ayudarte.</p>
         <ul class="contact-links">
           <li data-show-if="contacto.email" hidden><small>Email</small><a href="#" data-mail></a></li>
+          <li data-show-if="contacto.telefono" hidden><small>Teléfono</small><a href="#" data-tel></a></li>
+          <li data-show-if="contacto.whatsapp" hidden><small>WhatsApp</small><a href="#" data-wa target="_blank" rel="noopener">Escríbeme por WhatsApp</a></li>
           <li data-show-if="contacto.instagram" hidden><small>Instagram</small><a href="#" data-insta target="_blank" rel="noopener"></a></li>
         </ul>
       </div>
@@ -277,6 +279,7 @@
       <ul class="footer-links">
         <li data-show-if="contacto.instagram" hidden><a href="#" data-insta-plain target="_blank" rel="noopener">Instagram</a></li>
         <li data-show-if="contacto.email" hidden><a href="#" data-mail-plain>Email</a></li>
+        <li data-show-if="contacto.whatsapp" hidden><a href="#" data-wa target="_blank" rel="noopener">WhatsApp</a></li>
         <li><a href="privacidad.html">Política de privacidad</a></li>
         <li><a href="aviso-legal.html">Aviso legal</a></li>
       </ul>
@@ -284,6 +287,8 @@
     </div>
   </div>
 </footer>
+
+<a class="wa-float" href="#" data-wa data-show-if="contacto.whatsapp" target="_blank" rel="noopener" aria-label="Escribir a DURDUC por WhatsApp" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.39-1.47-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.07c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.42-.08-.12-.28-.2-.57-.34zM12.05 21.8h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.83 9.83 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.16-3.48-8.41z"/></svg></a>
 
 <script src="js/config.js"></script>
 <script src="js/data.js"></script>

@@ -47,6 +47,12 @@
       $$("[data-insta]").forEach(function (a) { a.href = insta; a.textContent = instaUser; });
       $$("[data-insta-plain]").forEach(function (a) { a.href = insta; });
     }
+    var tel = get("contacto.telefono"), wa = String(get("contacto.whatsapp") || "").replace(/\D/g, "");
+    if (tel) $$("[data-tel]").forEach(function (a) { a.href = "tel:" + tel.replace(/[^\d+]/g, ""); a.textContent = tel; });
+    if (wa) {
+      var waMsg = get("contacto.whatsappMensaje") || "";
+      $$("[data-wa]").forEach(function (a) { a.href = "https://wa.me/" + wa + (waMsg ? "?text=" + encodeURIComponent(waMsg) : ""); });
+    }
     $$("[data-year]").forEach(function (el) { el.textContent = new Date().getFullYear(); });
   }
 
@@ -75,6 +81,7 @@
       "knowsAbout": DATA.servicios.map(function (s) { return s.titulo; })
     };
     if (get("contacto.email")) data.email = get("contacto.email");
+    if (get("contacto.telefono")) data.telephone = get("contacto.telefono").replace(/\s/g, "");
     if (sameAs.length) data.sameAs = sameAs;
     var s = document.createElement("script");
     s.type = "application/ld+json"; s.textContent = JSON.stringify(data);
@@ -217,6 +224,8 @@
     els.forEach(function (el) {
       var to = el.hasAttribute("data-count") ? map[el.getAttribute("data-count")] : +el.getAttribute("data-count-to");
       el.setAttribute("data-final", to);
+      var label = el.parentNode.querySelector("[data-plural]");
+      if (label) label.textContent = label.getAttribute("data-plural").split("|")[to === 1 ? 0 : 1];
       el.textContent = reduce ? pad(to) : "00";
     });
     function pad(n) { return String(n).padStart(2, "0"); }
